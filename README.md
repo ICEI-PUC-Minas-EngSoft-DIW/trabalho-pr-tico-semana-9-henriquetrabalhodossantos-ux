@@ -4,8 +4,8 @@ Nesta atividade, vamos montar um programa para praticar funções em JavaScript 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
+- Nome: Henrique Santos de Souza
+- Matricula: 907454
 
 ## Prints do trabalho
 
