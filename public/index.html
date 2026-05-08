@@ -1,13 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tec Ecommerce - Catálogo</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+
+  <h1>Tec Ecommerce - Catálogo</h1>
+
+  <div class="controls">
+    <input type="text" id="search" placeholder="Buscar produto...">
+
+    <select id="category">
+      <option value="Todas">Todas</option>
+    </select>
+
+    <button id="btnRender">Renderizar</button>
+  </div>
+
+  <div id="product-list"></div>
+
+  <div id="product-details">
+    <h2>Detalhes do Produto</h2>
+    <p>Clique em “Ver detalhes” para ver as informações completas do produto.</p>
+  </div>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
